@@ -122,6 +122,6 @@ for gpu_name, values_per_year in data_per_GPU.items():
 
 # print(csv_table)
 
-with open('steam_gpu_per_year.csv', 'w', newline='') as csvfile:
+with open('data/steam-gpu-month-year.csv', 'w', newline='') as csvfile:
     writer = csv.writer(csvfile)
     writer.writerows(csv_table)
